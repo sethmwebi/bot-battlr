@@ -7,7 +7,7 @@ const Navbar = () => {
       <NavLink to="/" exact="true">
         Home
       </NavLink>
-      <NavLink to="/my-bots" exact="true">
+      <NavLink to="/my-army" exact="true">
         My Bots
       </NavLink>
     </nav>

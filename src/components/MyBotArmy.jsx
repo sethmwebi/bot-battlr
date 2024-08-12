@@ -1,5 +1,11 @@
+import Navbar from "./Navbar";
+
 const MyBotArmy = () => {
-  return <div>MyBotArmy</div>;
+  return (
+    <div className="bot-army">
+      <Navbar />
+    </div>
+  );
 };
 
 export default MyBotArmy;

@@ -1,0 +1,11 @@
+.nav-bar {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
