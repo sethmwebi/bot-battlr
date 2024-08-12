@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Bot from "./Bot";
 import { fetchBots } from "../services/botService";
+import "./BotCollection.css";
 
 const BotCollection = () => {
   const [bots, setBots] = useState([]);
@@ -23,15 +24,15 @@ const BotCollection = () => {
     return <p>Loading...</p>;
   }
   return (
-    <div>
+    <div className="bots">
       {bots &&
         bots.length &&
         bots.map((bot) => (
           <Bot
             key={bot.id}
             id={bot.id}
-            name={name}
-            armor={bot.armour}
+            name={bot.name}
+            armor={bot.armor}
             avatar_url={bot.avatar_url}
           />
         ))}

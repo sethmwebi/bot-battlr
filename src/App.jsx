@@ -1,9 +1,9 @@
-import React from "react";
 import BotCollection from "./components/BotCollection";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div id="app">
       <BotCollection />
     </div>
   );
