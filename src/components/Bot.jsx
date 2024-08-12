@@ -1,6 +1,6 @@
 import "./Bot.css";
 
-const Bot = ({ id, name, armor, avatar_url }) => {
+const Bot = ({ id, name, avatar_url }) => {
   return (
     <div className="bot">
       <p>{id}</p>
